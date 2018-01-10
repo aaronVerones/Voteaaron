@@ -6,7 +6,7 @@
 	<link rel="icon" type="image/png" href="assets/img/favicon.png">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-	<title>Material Kit by Creative Tim</title>
+	<title>Aaron for VP Admin</title>
 
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 
@@ -35,13 +35,12 @@
 	        	<span class="icon-bar"></span>
 	        	<span class="icon-bar"></span>
 	    	</button>
-	    	<a href="http://www.creative-tim.com">
 	        	<div class="logo-container">
 	                <div class="logo">
-	                    <img src="assets/img/logo.png" alt="Creative Tim Logo" rel="tooltip" title="<b>Material Kit</b> was Designed & Coded with care by the staff from <b>Creative Tim</b>" data-placement="bottom" data-html="true">
+	                    <img src="assets/img/logo.png">
 	                </div>
 	                <div class="brand">
-	                    Creative Tim
+	                    Aaron for AMS VP Admin
 	                </div>
 
 
@@ -51,28 +50,19 @@
 
 	    <div class="collapse navbar-collapse" id="navigation-index">
 	    	<ul class="nav navbar-nav navbar-right">
+
 				<li>
-					<a href="components-documentation.html" target="_blank">
-						<i class="material-icons">dashboard</i> Components
-					</a>
-				</li>
-				<li>
-					<a href="http://demos.creative-tim.com/material-kit-pro/presentation.html?ref=utp-freebie" target="_blank">
-						<i class="material-icons">unarchive</i> Upgrade to PRO
-					</a>
-				</li>
-				<li>
-					<a rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/CreativeTim" target="_blank" class="btn btn-white btn-simple btn-just-icon">
+					<a rel="tooltip" title="Follow on Twitter" data-placement="bottom" href="" target="_blank" class="btn btn-white btn-simple btn-just-icon">
 						<i class="fa fa-twitter"></i>
 					</a>
 				</li>
 				<li>
-					<a rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/CreativeTim" target="_blank" class="btn btn-white btn-simple btn-just-icon">
+					<a rel="tooltip" title="Like on Facebook" data-placement="bottom" href="" target="_blank" class="btn btn-white btn-simple btn-just-icon">
 						<i class="fa fa-facebook-square"></i>
 					</a>
 				</li>
 				<li>
-					<a rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/CreativeTimOfficial" target="_blank" class="btn btn-white btn-simple btn-just-icon">
+					<a rel="tooltip" title="Follow on Instagram" data-placement="bottom" href="" target="_blank" class="btn btn-white btn-simple btn-just-icon">
 						<i class="fa fa-instagram"></i>
 					</a>
 				</li>
@@ -99,6 +89,7 @@
 	</div>
 
 	<div class="main main-raised">
+		{{-- START CONTENT --}}
 		<div class="section section-basic">
 	    	<div class="container">
 	            <div class="title">
@@ -1262,85 +1253,24 @@
 	        </div>
 		</div>
 
-	    <div class="section section-download">
-	        <div class="container">
-	            <div class="row text-center">
-	                <div class="col-md-8 col-md-offset-2">
-	                    <h2>Do you love this UI Kit?</h2>
-	                    <h4>Cause if you do, it can be yours for FREE. Hit the button below to navigate to Creative Tim where you can find the kit. Start a new project or give an old Bootstrap project a new look!</h4>
-	                </div>
-	                <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-4">
-	                    <a href="http://www.creative-tim.com/product/material-kit" class="btn btn-primary btn-lg">
-							<i class="material-icons">cloud_download</i> Free Download
-						</a>
-	                </div>
-				</div>
 
-				<br><br>
-
-				<div class="row text-center">
-					<div class="col-md-8 col-md-offset-2">
-	                    <h2>Want more?</h2>
-	                    <h4>We've just launched <a href="http://demos.creative-tim.com/material-kit-pro/presentation.html?ref=utp-freebie" target="_blank">Material Kit PRO</a>. It has a huge number of components, sections and example pages. Start Your Development With A Badass Bootstrap UI Kit inspired by Material Design.</h4>
-	                </div>
-					<div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-4">
-						<a href="http://demos.creative-tim.com/material-kit-pro/presentation.html?ref=utp-freebie" class="btn btn-upgrade btn-lg" target="_blank">
-							<i class="material-icons">unarchive</i> Upgrade to PRO
-						</a>
-					</div>
-	            </div>
-
-	            <div class="row sharing-area text-center">
-	                    <h3>Thank you for supporting us!</h3>
-	                    <a href="#" class="btn btn-twitter">
-	                        <i class="fa fa-twitter"></i>
-	                        Tweet
-	                    </a>
-	                    <a href="#" class="btn btn-facebook">
-	                        <i class="fa fa-facebook-square"></i>
-	                        Share
-	                    </a>
-						<a href="#" class="btn btn-google-plus">
-	                        <i class="fa fa-google-plus"></i>
-	                        Share
-	                    </a>
-						<a href="#" class="btn btn-github">
-	                        <i class="fa fa-github"></i>
-	                    	Star
-	                    </a>
-	            </div>
-	        </div>
-	    </div>
-
+		{{-- END CONTENT --}}
 	</div>
     <footer class="footer">
 	    <div class="container">
 	        <nav class="pull-left">
 	            <ul>
+
 					<li>
-						<a href="http://www.creative-tim.com">
-							Creative Tim
-						</a>
+						<button type="button" class="btn btn-default " data-toggle="modal" data-target="#myModal">
+						   Info for nerds
+					   </button>
 					</li>
-					<li>
-						<a href="http://presentation.creative-tim.com">
-						   About Us
-						</a>
-					</li>
-					<li>
-						<a href="http://blog.creative-tim.com">
-						   Blog
-						</a>
-					</li>
-					<li>
-						<a href="http://www.creative-tim.com/license">
-							Licenses
-						</a>
-					</li>
+
 	            </ul>
 	        </nav>
 	        <div class="copyright pull-right">
-	            &copy; 2016, made with <i class="material-icons">favorite</i> by Creative Tim for a better web.
+	            Thanks for reading all this way! This was a lot of code. Stay awesome!
 	        </div>
 	    </div>
 	</footer>
@@ -1354,14 +1284,19 @@
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
 					<i class="material-icons">clear</i>
 				</button>
-				<h4 class="modal-title">Modal title</h4>
+				<h4 class="modal-title">Technology Stack</h4>
 			</div>
 			<div class="modal-body">
-				<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+				<p>
+					<ul>
+						<li>Server: Amazon EC2 (Ubuntu Linux 16.04)</li>
+						<li>Webserver: Nginx</li>
+						<li>Database: Amazon RDS (MySQL)</li>
+						<li>Backend: PHP with Laravel Framework</li>
+						<li>Frontend: Bootstrap Framework</li>
 				</p>
 			</div>
 			<div class="modal-footer">
-				<button type="button" class="btn btn-default btn-simple">Nice Button</button>
 				<button type="button" class="btn btn-danger btn-simple" data-dismiss="modal">Close</button>
 			</div>
 		</div>

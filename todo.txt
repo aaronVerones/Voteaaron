@@ -1,0 +1,15 @@
+Preliminary:
+- remove all creative tim things
+- change photo in top left
+- change site header logo
+- change background photo
+
+MVP:
+- day countdown to voting open and close in menu bar
+- endorsements
+- platform
+- plans
+- profile + experience
+    - experience should be categorized somehow 
+
+Nice to have features:
