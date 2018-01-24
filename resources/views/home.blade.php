@@ -74,13 +74,13 @@
 <!-- End Navbar -->
 
 <div class="wrapper">
-	<div class="header header-filter" style="background-image: url('assets/img/bg2.jpeg');">
+	<div class="header header-filter" style="background-image: url('');">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
 					<div class="brand">
-						<h1>Material Kit.</h1>
-						<h3>A Badass Bootstrap UI Kit based on Material Design.</h3>
+						<h1>Refocus on Service</h1>
+						<h3>With a capable, experienced, no-bullshit VP Admin </h3>
 					</div>
 				</div>
 			</div>
