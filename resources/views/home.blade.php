@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
-	<link rel="icon" type="image/png" href="assets/img/favicon.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/ams-sun.png">
+	<link rel="icon" type="image/png" href="assets/img/ams-sun.png">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
 	<title>Aaron for VP Admin</title>
 
-	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, ' name='viewport' />
 
 	<!--     Fonts and icons     -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
@@ -29,18 +29,9 @@
 <nav class="navbar navbar-transparent navbar-fixed-top navbar-color-on-scroll">
 	<div class="container">
         <div class="navbar-header">
-	    	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-index">
-	        	<span class="sr-only">Toggle navigation</span>
-	        	<span class="icon-bar"></span>
-	        	<span class="icon-bar"></span>
-	        	<span class="icon-bar"></span>
-	    	</button>
-	        	<div class="logo-container">
-	                <div class="logo">
-	                    <img src="assets/img/logo.png">
-	                </div>
+	    	   	<div class="logo-container">
 	                <div class="brand">
-	                    Aaron for AMS VP Admin
+	                    Aaron Verones for AMS VP Admin
 	                </div>
 
 
@@ -48,24 +39,13 @@
 	      	</a>
 	    </div>
 
-	    <div class="collapse navbar-collapse" id="navigation-index">
+	    <div>
 	    	<ul class="nav navbar-nav navbar-right">
 
 				<li>
-					<a rel="tooltip" title="Follow on Twitter" data-placement="bottom" href="" target="_blank" class="btn btn-white btn-simple btn-just-icon">
-						<i class="fa fa-twitter"></i>
-					</a>
+					<a href="vote" class="vote-btn btn btn-success" >Vote</a>
 				</li>
-				<li>
-					<a rel="tooltip" title="Like on Facebook" data-placement="bottom" href="" target="_blank" class="btn btn-white btn-simple btn-just-icon">
-						<i class="fa fa-facebook-square"></i>
-					</a>
-				</li>
-				<li>
-					<a rel="tooltip" title="Follow on Instagram" data-placement="bottom" href="" target="_blank" class="btn btn-white btn-simple btn-just-icon">
-						<i class="fa fa-instagram"></i>
-					</a>
-				</li>
+
 
 	    	</ul>
 	    </div>
@@ -80,7 +60,7 @@
 				<div class="col-md-8 col-md-offset-2">
 					<div class="brand">
 						<h1>Refocus on Service</h1>
-						<h3>With a capable, experienced, no-bullshit VP Admin </h3>
+						<h3 style="max-width:500px">With an experienced and capable VP Admin </h3>
 					</div>
 				</div>
 			</div>
@@ -92,6 +72,224 @@
 		{{-- START CONTENT --}}
 		<div class="section section-basic">
 	    	<div class="container">
+
+				{{--PLATFORM--}}
+				<div class="col-md-6">
+						<div class="title">
+							<h3>Platform</h3>
+						</div>
+						<!-- Tabs with icons on Card -->
+						<div class="card card-nav-tabs">
+							<div class="header header-success">
+								<!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
+								<div class="nav-tabs-navigation">
+									<div class="nav-tabs-wrapper">
+										<ul class="nav nav-tabs" data-tabs="tabs">
+											<li class="active">
+												<a href="#platform-information" data-toggle="tab">
+													<i class="material-icons">info_outline</i>
+													Information Quality
+												</a>
+											</li>
+											<li>
+												<a href="#platform-space" data-toggle="tab">
+													<i class="material-icons">event</i>
+													Space Availability
+												</a>
+											</li>
+											<li>
+												<a href="#platform-money" data-toggle="tab">
+													<i class="material-icons">attach_money</i>
+													Money
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="content">
+								<div class="tab-content text-center">
+									<div class="tab-pane active" id="platform-information">
+										<p> TODO </p>
+									</div>
+									<div class="tab-pane" id="platform-space">
+										<p> TODO </p>
+									</div>
+									<div class="tab-pane" id="platform-money">
+										<p> TODO </p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- End Tabs with icons on Card -->
+				</div>
+				{{--END PLATFORM--}}
+
+				{{--EXPERIENCE--}}
+				<div class="col-md-6">
+					<div class="title">
+						<h3>Experience</h3>
+					</div>
+					<div class="row-fluid">
+						<div class="col-md-4" style="margin-top:30px">
+							<p class="experience-label">Inside the AMS</p>
+						</div>
+
+						<div class="col-md-8 experience-desc">
+							<p style="margin-top:5px">
+								- Assistant to the AMS President<br>
+								- Safewalk Driver and Shift Supervisor<br>
+								- Vice-Chair of Steering Committee
+							</p>
+						</div>
+					</div>
+					<div class="row-fluid">
+						<div class="col-md-4" style="margin-top:45px">
+							<p class="experience-label">Within UBC</p>
+						</div>
+
+						<div class="col-md-8 experience-desc" style="margin-top:20px">
+							<p style="margin-top:5px">
+								- UBC Dance Club Executive<br>
+								- Student Leadership Conference Planning Committe
+							</p>
+						</div>
+					</div>
+
+					<div class="row-fluid">
+						<div class="col-md-4" style="margin-top:54px">
+							<p class="experience-label">External</p>
+						</div>
+
+						<div class="col-md-8 experience-desc" style="margin-top:20px">
+							<p style="margin-top:5px">
+								- Full-Stack Software Developer, Kanekta (e@UBC Startup)<br>
+								- System Administrator/Tech Support, Teck Resources
+							</p>
+						</div>
+					</div>
+				</div>
+				{{--END EXPERIENCE--}}
+
+				<div class="clearfix" style="margin-bottom:40px"></div>
+
+				{{--CONCRETE PLANS--}}
+				<div class="col-md-8 col-md-offset-2 text-center">
+                    <h3>Concrete Plans</h3>
+					<h5>("that sounds nice, but how will you do it?")</h5>
+                </div>
+				<div class="clearfix"></div>
+				<div class="row" style="margin-top:60px">
+				<?php $options = [
+					'title' => 'AMS Website Restructure',
+					'step1' => 'Step 1',
+					'step2' => 'Step 2',
+					'step3' => 'Step 3',
+					'link' => '#'
+				]; ?>
+				@include('include-concrete-card', $options)
+				<?php $options = [
+					'title' => 'Bookings Review',
+					'step1' => 'Step 1',
+					'step2' => 'Step 2',
+					'step3' => 'Step 3',
+					'link' => '#'
+				]; ?>
+				@include('include-concrete-card', $options)
+				<?php $options = [
+					'title' => 'Spending Plan',
+					'step1' => 'Step 1',
+					'step2' => 'Step 2',
+					'step3' => 'Step 3',
+					'link' => '#'
+				]; ?>
+				@include('include-concrete-card', $options)
+				</div>
+
+				{{--END CONCRETE PLANS--}}
+
+				<div class="clearfix" style="margin-bottom:40px"></div>
+
+				{{--PROFILE--}}
+				<div class="col-md-6">
+					<div class="title">
+						<h3>Profile</h3>
+					</div>
+					<div class="row-fluid">
+						<div class="col-md-4" style="margin-top:30px">
+							<p class="experience-label">Inside the AMS</p>
+						</div>
+
+						<div class="col-md-8 experience-desc">
+							<p style="margin-top:5px">
+								- Assistant to the AMS President<br>
+								- Safewalk Driver and Shift Supervisor<br>
+								- Vice-Chair of Steering Committee
+							</p>
+						</div>
+					</div>
+					<div class="row-fluid">
+						<div class="col-md-4" style="margin-top:45px">
+							<p class="experience-label">Within UBC</p>
+						</div>
+
+						<div class="col-md-8 experience-desc" style="margin-top:20px">
+							<p style="margin-top:5px">
+								- UBC Dance Club Executive<br>
+								- Student Leadership Conference Planning Committe
+							</p>
+						</div>
+					</div>
+
+					<div class="row-fluid">
+						<div class="col-md-4" style="margin-top:54px">
+							<p class="experience-label">External</p>
+						</div>
+
+						<div class="col-md-8 experience-desc" style="margin-top:20px">
+							<p style="margin-top:5px">
+								- Full-Stack Software Developer, Kanekta (e@UBC Startup)<br>
+								- System Administrator/Tech Support, Teck Resources
+							</p>
+						</div>
+					</div>
+				</div>
+				{{--END PROFILE--}}
+
+				{{--ENDORSEMENTS--}}
+				<div class="col-md-6">
+						<div class="title">
+							<h3>Endorsements</h3>
+						</div>
+						<!-- Tabs with icons on Card -->
+						<div class="card card-nav-tabs">
+							<div class="header header-success">
+								<!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
+								<div class="nav-tabs-navigation">
+									<div class="nav-tabs-wrapper">
+										<ul class="nav nav-tabs" data-tabs="tabs">
+											{{--LOTS TO DO HERE--}}
+											<li >
+												<h4>Endorser Name <small style="margin-left:50px;color:white">-&nbsp;&nbsp;President at Some Club</small></h4>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="content">
+								<div class="tab-content text-center">
+									<div class="tab-pane active" id="platform-information">
+										<p> TODO </p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- End Tabs with icons on Card -->
+				</div>
+				{{--END ENDORSEMENTS--}}
+
+				{{--STOCK CONTENT--}}
+				<div class="clearfix" style="margin-bottom:1000px"></div>
 	            <div class="title">
 	                <h2>Basic Elements</h2>
 	            </div>

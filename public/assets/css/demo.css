@@ -1,3 +1,27 @@
+.experience-desc {
+    padding-left:20px;
+    border-left: 1px solid #3A6F5A;
+}
+.experience-label {
+    font-size: 12pt;
+}
+@media (max-width:767px) {
+    .vote-btn {
+        max-width:90px;
+        float:right;
+        margin-right:17px!important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 .tim-row{
     margin-bottom: 20px;
 }
@@ -130,7 +154,7 @@
     float: left;
     margin-left: 10px;
     margin-top: 16px;
-    width: 242px;
+    width: 350px;
     height: 40px;
     text-align: left;
 }
