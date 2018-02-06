@@ -1,4 +1,4 @@
-<div class="col-md-4 ">
+<div class="col-md-4 concrete-card">
     <div class="card card-signup">
             <div class="header header-info text-center">
                 <h4>{{$options['title']}}</h4>

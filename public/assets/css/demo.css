@@ -11,8 +11,29 @@
         float:right;
         margin-right:17px!important;
     }
+    .endorse-btn {
+        max-width: 120px;
+        float:right;
+        margin-right:17px!important;
+    }
+}
+.platform-label {
+    margin-left:20px;
+    color:#666;
+    margin-bottom: 18px;
+    margin-top: 5px;
 }
 
+ul.platform-ul li {
+    margin-bottom:5px;
+}
+ul li.top-nav {
+    margin-left: 5px;
+}
+
+.concrete-card {
+    margin-top: 60px
+}
 
 
 
