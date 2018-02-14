@@ -1,9 +1,3 @@
-Preliminary:
-x remove all creative tim things
-- change photo in top left
-x change site header logo
-- change background photo
-- change primary color
 
 MVP:
 - day countdown to voting open and close in menu bar

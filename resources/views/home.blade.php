@@ -242,7 +242,7 @@
 				<div class="clearfix" style="margin-bottom:40px"></div>
 
 				{{--PROFILE--}}
-				<div class="col-md-6">
+				{{--<div class="col-md-6">
 					<div class="title">
 						<h3>Profile</h3>
 					</div>
@@ -284,11 +284,11 @@
 							</p>
 						</div>
 					</div>
-				</div>
+				</div>--}}
 				{{--END PROFILE--}}
 
 				{{--ENDORSEMENTS--}}
-				<div class="col-md-6">
+				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="title">
 						<h3>Endorsements</h3>
 					</div>
@@ -299,9 +299,12 @@
 							<div class="nav-tabs-navigation">
 								<div class="nav-tabs-wrapper">
 									<ul class="nav nav-tabs" data-tabs="tabs">
-										{{--LOTS TO DO HERE--}}
-										<li >
-											<h4>Endorser Name <small style="margin-left:50px;color:white">-&nbsp;&nbsp;President at Some Club</small></h4>
+										@php
+										$num = rand(0, count($endorsements)-1);
+										$endorsement = $endorsements[$num];
+										@endphp
+										<li>
+											<h4>{{$endorsement->individual_name}} <small style="margin-left:50px;color:white">-&nbsp;&nbsp;{{$endorsement->position}}</small></h4>
 										</li>
 									</ul>
 								</div>
@@ -310,7 +313,7 @@
 						<div class="content">
 							<div class="tab-content text-center">
 								<div class="tab-pane active" id="platform-information">
-									<p> TODO </p>
+									<p> {!!$endorsement->message!!} </p>
 								</div>
 							</div>
 						</div>

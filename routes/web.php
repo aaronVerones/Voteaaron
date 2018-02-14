@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', 'generalController@home');
 
 Route::get('/test', function() {
     return view('test');
@@ -26,3 +24,5 @@ Route::get('endorse', [
 Route::post('/endorse/submit', [
     'uses' => 'endorsementController@submit'
 ]);
+
+Route::get('/vote', 'generalController@vote');
