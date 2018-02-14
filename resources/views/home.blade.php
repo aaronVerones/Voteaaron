@@ -26,6 +26,7 @@
 
 <body class="index-page">
 	<!-- Navbar -->
+
 	<nav class="navbar navbar-transparent navbar-fixed-top navbar-color-on-scroll">
 		<div class="container">
 			<div class="navbar-header">
@@ -51,19 +52,8 @@
 <!-- End Navbar -->
 
 <div class="wrapper">
-	<div class="header header-filter" style="background-image: url('');">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-					<div class="brand">
-						<h1>Refocus on Service</h1>
-						<h3 style="max-width:500px">With an experienced and capable VP Admin </h3>
-					</div>
-				</div>
-			</div>
-
-		</div>
-	</div>
+	<img src="assets/img/cover2880.png" class="big-photo img-responsive"alt="">
+	<img src="assets/img/profile_pic_1242w.png" class="small-photo img-responsive"alt="">
 
 	<div class="main main-raised">
 		{{-- START CONTENT --}}

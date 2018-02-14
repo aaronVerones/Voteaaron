@@ -16,6 +16,17 @@
         float:right;
         margin-right:17px!important;
     }
+    .big-photo {
+        display:none;
+    }
+    .navbar-fixed-top {
+        display: none;
+    }
+}
+@media (min-width:768px) {
+    .small-photo {
+        display: none;
+    }
 }
 .platform-label {
     margin-left:20px;
@@ -34,6 +45,8 @@ ul li.top-nav {
 .concrete-card {
     margin-top: 60px
 }
+
+
 
 
 
