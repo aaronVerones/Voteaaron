@@ -61,21 +61,6 @@
     <input class="other" type="submit" value="Submit">
 </form>
 
-<h2 style="margin-top 30px">Endorsements received:</h2>
-
-@foreach ($endorsements as $endorsement)
-
-{{ $endorsement->individual_name }} {{$endorsement->group_name}} <br>
-<ul>
-    <li>Position: {{$endorsement->position}}</li>
-    <li>Message: {{$endorsement->message}}</li>
-</ul>
-<br>
-@endforeach
-
-
-
-
 
 
 <script>
