@@ -26,3 +26,15 @@ Route::post('/endorse/submit', [
 ]);
 
 Route::get('/vote', 'generalController@vote');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/admin', 'generalController@admin');
+
+Route::get('/logout', 'Auth\LoginController@logout');
+
+Route::post('/admin/update_endorsement', [
+    'uses' => 'generalController@updateEndorsement'
+]);

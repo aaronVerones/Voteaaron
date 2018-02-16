@@ -15,7 +15,6 @@
 </style>
 
 <h2 style="margin-top 30px">Submit an Endorsement:</h2>
-<img src="assets/test">
 
 
 <form action="/endorse/submit" method="post">

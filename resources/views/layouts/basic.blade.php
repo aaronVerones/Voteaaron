@@ -1,28 +1,30 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Aaron for VP Admin</title>
+	<meta charset="utf-8" />
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/ams-sun.png">
+	<link rel="icon" type="image/png" href="assets/img/ams-sun.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<title>Aaron for VP Admin</title>
 
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, ' name='viewport' />
 
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!--     Fonts and icons     -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+
+	<!-- CSS Files -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="assets/css/material-kit.css" rel="stylesheet"/>
+	<link href="assets/css/demo.css" rel="stylesheet" />
+
+    <!-- JS Files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 </head>
-<body>
-<div class="container">
 
-    <div id="main" class="row">
+    @yield('content')
 
-            @yield('content')
-
-    </div>
-
-
-</div>
-</body>
 </html>

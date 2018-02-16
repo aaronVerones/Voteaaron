@@ -1,28 +1,6 @@
-<!doctype html>
-<html lang="en">
-<head>
-	<meta charset="utf-8" />
-	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/ams-sun.png">
-	<link rel="icon" type="image/png" href="assets/img/ams-sun.png">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+@extends('layouts.basic')
 
-	<title>Aaron for VP Admin</title>
-
-	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, ' name='viewport' />
-
-	<!--     Fonts and icons     -->
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
-
-	<!-- CSS Files -->
-	<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-	<link href="assets/css/material-kit.css" rel="stylesheet"/>
-
-	<!-- CSS Just for demo purpose, don't include it in your project -->
-	<link href="assets/css/demo.css" rel="stylesheet" />
-
-</head>
+@section('content')
 
 <body class="index-page">
 	<!-- Navbar -->
@@ -288,37 +266,43 @@
 				{{--END PROFILE--}}
 
 				{{--ENDORSEMENTS--}}
-				<div class="col-md-8 col-md-offset-2 text-center">
+				<div class="col-md-12 text-center">
 					<div class="title">
 						<h3>Endorsements</h3>
 					</div>
-					<!-- Tabs with icons on Card -->
-					<div class="card card-nav-tabs">
-						<div class="header header-success">
-							<!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
-							<div class="nav-tabs-navigation">
-								<div class="nav-tabs-wrapper">
-									<ul class="nav nav-tabs" data-tabs="tabs">
-										@php
-										$num = rand(0, count($endorsements)-1);
-										$endorsement = $endorsements[$num];
-										@endphp
-										<li>
-											<h4>{{$endorsement->individual_name}} <small style="margin-left:50px;color:white">-&nbsp;&nbsp;{{$endorsement->position}}</small></h4>
-										</li>
-									</ul>
+
+					<?php $columns = 4 ?>
+					<?php for($i = 0; $i<$columns; $i++): ?>
+						<div class="col-md-3">
+							@foreach ($endorsements as $endorsement)
+							<?php if ($loop->index % $columns == $i): ?>
+								<div class="card card-nav-tabs" style="margin-bottom:15px">
+									<div class="header header-{{$endorsement->type == 'individual' ? 'success' : 'primary'}}">
+										<div class="nav-tabs-navigation">
+											<div class="nav-tabs-wrapper">
+												<ul class="nav nav-tabs" data-tabs="tabs">
+													<li>
+														<h4>{{ucwords($endorsement->individual_name ?? $endorsement->group_name)}}</h4>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="content">
+										<div class="tab-content text-center">
+											<div class="tab-pane active">
+												<p> {!!$endorsement->message!!} </p>
+											</div>
+										</div>
+									</div>
 								</div>
-							</div>
+							<?php endif; ?>
+							@endforeach
 						</div>
-						<div class="content">
-							<div class="tab-content text-center">
-								<div class="tab-pane active" id="platform-information">
-									<p> {!!$endorsement->message!!} </p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- End Tabs with icons on Card -->
+					<?php endfor; ?>
+
+
+
 				</div>
 				{{--END ENDORSEMENTS--}}
 			</div>
@@ -404,4 +388,5 @@ $().ready(function(){
 
 });
 </script>
-</html>
+
+@endsection

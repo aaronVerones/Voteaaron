@@ -14,5 +14,8 @@ class Endorsement extends Model
         'number_of_members',
         'message', //input as html formatted text. echo with {!! !!}
         'logo', //url for logo
+        'status',
     ];
+
+    
 }
