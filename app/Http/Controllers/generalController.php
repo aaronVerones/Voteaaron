@@ -12,6 +12,10 @@ class generalController extends Controller
         $endorsements = Endorsement::where('status','approved')->get();
         return view('home')->with(compact('endorsements'));
     }
+    public function token($token = '') {
+        if ($token == 'TyH3TtwPlJyd2hO5') return $this->home();
+        else return view('unavailable');
+    }
     public function vote() {
         return redirect('https://amsvoting.as.it.ubc.ca/auth.php');
     }

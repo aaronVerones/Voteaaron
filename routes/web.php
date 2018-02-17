@@ -11,7 +11,8 @@
 |
 */
 
-Route::get('/', 'generalController@home');
+Route::get('/', 'generalController@token');
+Route::get('/{token}', 'generalController@token');
 
 Route::get('/test', function() {
     return view('test');
