@@ -12,7 +12,6 @@
 */
 
 Route::get('/', 'generalController@token');
-Route::get('/{token}', 'generalController@token');
 
 Route::get('/test', function() {
     return view('test');
@@ -39,3 +38,4 @@ Route::get('/logout', 'Auth\LoginController@logout');
 Route::post('/admin/update_endorsement', [
     'uses' => 'generalController@updateEndorsement'
 ]);
+Route::get('/{token}', 'generalController@token');

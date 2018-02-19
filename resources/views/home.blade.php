@@ -68,6 +68,12 @@
 												Money
 											</a>
 										</li>
+										<li>
+											<a href="#platform-other" data-toggle="tab">
+												<i class="material-icons">more_horiz</i>
+												Other
+											</a>
+										</li>
 									</ul>
 								</div>
 							</div>
@@ -124,6 +130,31 @@
 										<li><strong>Reducing money leakage</strong>
 											by improving internal operations
 										</li>
+
+									</ul>
+								</div>
+								<div class="tab-pane" id="platform-other">
+									<label class="platform-label" >
+										Other Priorities:
+									</label>
+									<ul class="platform-ul">
+										<li>Supporting a current <a href="https://sustain.ubc.ca/courses-teaching/seeds">SEEDS</a> project developing an app to show available study space on campus (i.e. number of seats available)</li>
+										<li>The <a href="https://www.ams.ubc.ca/sustainability/lighter-footprint-strategy/">Lighter Footprint Strategy</a> is in the process of being updated:
+											I will support our sustainability office in achieving these goals as set out in the updated plan. Review the previous action plan <a href="http://www.ams.ubc.ca/wp-content/uploads/2016/12/4AMS-Lighter-Footprint-Strategy-Action-Plans-and-Indicators-Mar-10-2008.pdf">here.</a>
+										</li>
+										<li>Expand on the current offering of the <a href="http://www.ams.ubc.ca/clubs/joining-a-club/slsc/">SLSC</a> by exploring options including:
+											<ol>
+												<li>An online equipment rental system, possibly integrated with <a href="https://www.campusvibe.ca/campusvibe/campus/cea260f5-8aab-4e11-bccf-fe4a846e62dc">CampusVibe/Clubhouse</a></li>
+												<li>Inventory Tracking for rental equipment</li>
+												<li>Club advertisements on the TVs</li>
+												<li>Extra printing options (posters, flyers, large-format, etc.)</li>
+											</ol>
+										</li>
+										<li>Revising the <a href="http://www.ams.ubc.ca/wp-content/uploads/2018/02/263-18-Policy-I-7_-AMS-Policy-on-Expulsion-from-AMS-Property-Proposal-1.pdf">Expulsion Policy</a> if it has not
+										been revised by the time I take office.</li>
+
+
+
 
 									</ul>
 								</div>
