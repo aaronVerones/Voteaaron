@@ -1,0 +1,9 @@
+actor: ScraperTester
+modules:
+    enabled:
+        - WebDriver:
+            url: 'https://www.campusvibe.ca/'
+            browser: chrome
+            wait: 5
+        - \Helper\Scraper
+        - Cli
