@@ -13,8 +13,7 @@ class generalController extends Controller
         return view('home')->with(compact('endorsements'));
     }
     public function token($token = '') {
-        if ($token == 'TyH3TtwPlJyd2hO5') return $this->home();
-        else return view('unavailable');
+        return $this->home();
     }
     public function vote() {
         return redirect('https://amsvoting.as.it.ubc.ca/auth.php');
