@@ -10,9 +10,9 @@
 </style>
 
 <article>
-    <h1>Check Back February 26th!</h1>
+    <h1>Check Back at 4:00PM!</h1>
     <div>
-        <p>Candidate websites will be available at the start of the campaign period. Campaigning runs from February 26th to March 9th</p>
+        <p>My Website will be available at 4:00PM today. Campaigning runs from February 26th to March 9th</p>
         <p>For more information, visit <a href="http://ams.ubc.ca/elections">AMS Elections</a></p>
     </div>
 </article>
