@@ -13,52 +13,73 @@
     display: none;
 }
 </style>
-
-<h2 style="margin-top 30px">Submit an Endorsement:</h2>
+<div class="col-md-12">
+    <h2 style="margin-top 30px">Submit an Endorsement:</h2>
+</div>
 
 
 <form action="/endorse/submit" method="post">
     {{ csrf_field() }}
-
-    <text class="">Endorsing on behalf of an individual or group?<br></text>
-    <label>Individual</label>
-    <input type="radio" name="type" value="individual">
-    <label>Group</label>
-    <input type="radio" name="type" value="group">
+    <div class="col-md-12">
+        <text class="">Endorsing on behalf of an individual or group?<br></text>
+    </div>
+    <div class="col-md-12">
+        <label>Individual</label>
+        <input type="radio" name="type" value="individual">
+        <label>Group</label>
+        <input type="radio" name="type" value="group">
+    </div>
     <br class="other">
 
     {{--fields for individual--}}
-
-    <text class="individual">Your Name:*</text>
-    <input class="individual" type="text" name="individual_name">
+    <div class="col-md-2">
+        <text class="individual">Your Name:*</text>
+    </div>
+    <div class="col-md-10">
+        <input class="individual" type="text" name="individual_name">
+    </div>
     <br class="individual">
 
-    <text class="individual">Position:</text>
-    <input class="individual" type="text" name="position">
+    <div class="col-md-2">
+        <text class="individual">Position:</text>
+    </div>
+    <div class="col-md-10">
+        <input class="individual" type="text" name="position">
+    </div>
     <br class="individual">
 
     {{--end--}}
 
     {{--fields for group--}}
-
-    <text class="group">Group Name:*</text>
-    <input class="group" type="text" name="group_name">
+    <div class="col-md-2">
+        <text class="group">Group Name:*</text>
+    </div>
+    <div class="col-md-10">
+        <input class="group" type="text" name="group_name">
+    </div>
     <br class="group">
-
-    <text class="group">Number of Members:</text>
-    <input class="group" type="number" name="number_of_members">
+    <div class="col-md-2">
+        <text class="group">Number of Members:</text>
+    </div>
+    <div class="col-md-10">
+        <input class="group" type="number" name="number_of_members">
+    </div>
     <br class="group">
 
     {{--end--}}
 
     {{--other fields--}}
-
-    <text class="other">Message:</text>
-    <input class="other" type="textarea" name="message">
+    <div class="col-md-2">
+        <text class="other">Message:</text>
+    </div>
+    <div class="col-md-10">
+        <textarea class="other" rows="5" name="message"></textarea>
+    </div>
 
     {{--end--}}
-
-    <input class="other" type="submit" value="Submit">
+    <div class="col-md-2">
+        <input class="other" type="submit" value="Submit">
+    </div>
 </form>
 
 
