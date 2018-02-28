@@ -152,7 +152,7 @@
 										</li>
 										<li>Revising the <a href="http://www.ams.ubc.ca/wp-content/uploads/2018/02/263-18-Policy-I-7_-AMS-Policy-on-Expulsion-from-AMS-Property-Proposal-1.pdf">Expulsion Policy</a> if it has not
 										been revised by the time I take office.</li>
-
+										<li>Increasing the usage of the Art Gallery by allowing and encouraging student groups to use it for events</li>
 
 
 
@@ -213,7 +213,7 @@
 
 				<div class="clearfix" style="margin-bottom:40px"></div>
 
-				
+
 
 				<div class="clearfix" style="margin-bottom:40px"></div>
 
