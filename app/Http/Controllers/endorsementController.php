@@ -17,6 +17,6 @@ class endorsementController extends Controller
     public function submit(Request $request)
     {
         Endorsement::create($request->all());
-        return redirect('/endorse');
+        return redirect('/');
     }
 }
