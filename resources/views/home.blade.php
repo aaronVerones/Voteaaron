@@ -82,7 +82,7 @@
 							<div class="tab-content ">
 								<div class="tab-pane active" id="platform-information">
 									<label class="platform-label" >
-										I will improve communication and informtion from the VP Admin Office by:
+										I will improve communication and information from the VP Admin Office by:
 									</label>
 									<ul class="platform-ul">
 										<li><strong>Re-designing the AMS website</strong>
