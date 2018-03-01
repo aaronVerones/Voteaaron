@@ -133,8 +133,8 @@
 										<li><strong>Identifying areas where money is leaving the AMS</strong>
 											and could be redirected back to students
 										</li>
-										<li><strong>Reducing money leakage</strong>
-											by improving internal operations
+										<li><strong>Increase funding for student groups</strong>
+											by using grants and funding available to non-profit organizations.
 										</li>
 
 									</ul>
